@@ -14,7 +14,7 @@ public class KullanıcıGirisi implements ActionListener {
     JButton GirişButonu;
 
     public KullanıcıGirisi(){
-        GirişButonu = new JButton("Giriş");
+        GirişButonu = new JButton("Giriş");  // giriş
         GirişButonu.addActionListener(this);
 
         Şifre = new JTextField("Şİfre gir:");
